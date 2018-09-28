@@ -5,7 +5,7 @@
 
 clear
 echo "#########################################"
-echo "##### PHANTOM Kernel - Build Script #####"
+echo "##### Rockstar Kernel - Build Script #####"
 echo "#########################################"
 
 # Make statement declaration
@@ -18,8 +18,8 @@ MAKE_STATEMENT=make
 # =================
 export PHANTOM_WORKING_DIR=$(dirname "$(pwd)")
 
-export KBUILD_BUILD_USER="Dencel"
-export KBUILD_BUILD_HOST="Zeus"
+export KBUILD_BUILD_USER="Dhruv007"
+export KBUILD_BUILD_HOST="TeamQuantum"
 export DEVICE="Santoni";
 
 export ZIP_DIR="${KERNEL_DIR}/AnyKernel2"
